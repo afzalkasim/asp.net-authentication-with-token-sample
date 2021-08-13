@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="FluentValidation" Version="8.6.2" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.11.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Glamz.Business.Entity\Glamz.Business.Entity.csproj" />
+    <ProjectReference Include="..\Glamz.Business.Model\Glamz.Business.Model.csproj" />
+    <ProjectReference Include="..\Glamz.Business.Repository\Glamz.Business.Repository.csproj" />
+  </ItemGroup>
+</Project>
